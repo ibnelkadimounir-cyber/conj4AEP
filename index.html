@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conjugaison 4AEP</title>
+
+<style>
+:root{
+  --blue:#0b5ed7;
+  --light:#eef4ff;
+  --dark:#08305f;
+}
+body{
+  margin:0;
+  font-family:system-ui, Arial, sans-serif;
+  background:#f2f7ff;
+  color:#123;
+}
+header{
+  background:linear-gradient(135deg,#0b5ed7,#3b82f6);
+  color:white;
+  padding:14px 10px;
+  text-align:center;
+}
+header h1{
+  font-size:18px;
+  margin:0;
+  font-weight:700;
+}
+header p{
+  margin:4px 0 0;
+  font-size:13px;
+  opacity:.9;
+}
+
+.container{
+  padding:10px;
+  max-width:900px;
+  margin:auto;
+}
+.card{
+  background:white;
+  border-radius:12px;
+  padding:12px;
+  margin:12px 0;
+  box-shadow:0 3px 8px rgba(0,0,0,.08);
+}
+h2{
+  color:var(--blue);
+  font-size:18px;
+}
+.rule{
+  background:var(--light);
+  border-left:5px solid var(--blue);
+  padding:8px;
+  margin:8px 0;
+  font-size:14px;
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:8px;
+  font-size:13px;
+}
+th,td{
+  border:1px solid #cddcff;
+  padding:6px 4px;
+  text-align:center;
+}
+th{background:#dbe7ff}
+
+.btn{
+  background:var(--blue);
+  color:white;
+  border:none;
+  padding:10px;
+  width:100%;
+  border-radius:10px;
+  font-size:16px;
+  margin-top:10px;
+}
+
+.qcm{
+  background:#eef4ff;
+  padding:8px;
+  border-radius:10px;
+  margin:8px 0;
+  font-size:14px;
+}
+.result{
+  font-size:17px;
+  font-weight:700;
+  color:var(--dark);
+  text-align:center;
+  margin-top:10px;
+}
+
+footer{
+  text-align:center;
+  font-size:12px;
+  color:#555;
+  margin:15px 0;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Groupe scolaire Taghilast --- Unité Hadria</h1>
+  <p>4AEP --- Année scolaire 2025 / 2026</p>
+<h1> Conjugaison des verbes usuels du 1er et 2ème groupe au présent de l'indicatif</h1>
+
+</header>
+
+<div class="container">
+
+<!-- ================= COURS ================= -->
+
+<div class="card">
+<h2>1️⃣  Conjugaison des verbes du 1er groupe (-er)</h2>
+<p><b>Définition et rappel :</b> Les verbes du 1er groupe sont des verbes qui se terminent par <b>-er</b> (sauf <i>aller</i>).</p>
+
+<div class="rule">
+<b> Règle :</b>  Pour conjuguer un verbe du premier groupe au présent de l'indicatif, j'écris le radical du verbe ''radical = verbe sans -er) et j'ajoute les terminaisons suivantes e – es – e – ons – ez – ent
+</div>
+
+<p><b>Exemple  :</b><br>
+Les acteurs <b>jouent</b> dans un film éducatif.</p>
+
+<table>
+<tr><th>Je</th><th>Tu</th><th>Il/Elle</th><th>Nous</th><th>Vous</th><th>Ils/Elles</th></tr>
+<tr>
+<td>joue</td><td>joues</td><td>joue</td><td>jouons</td><td>jouez</td><td>jouent</td>
+</tr>
+</table>
+</div>
+
+<div class="card">
+<h2>2️⃣ Verbes du 2e groupe (-ir)</h2>
+<p><b>Définition et rappel :</b> Les verbesdu 2e groupe sont des verbes en <b>-ir</b> et qui font <b>-issons</b> avec « nous ».</p>
+
+<div class="rule">
+<b>Règle :</b> Pour conjuguer un verbe du deuxième groupe au présent de l'indicatif, j'écris le radical du verbe ''radical = verbe sans -ir) et j'ajoute les terminaisons suivantes : is – is – it – issons – issez – issent
+</div>
+
+<p><b>Exemple :</b><br>
+Les élèves <b>finissent</b> la répétition avant le spectacle.</p>
+
+<table>
+<tr><th>Je</th><th>Tu</th><th>Il/Elle</th><th>Nous</th><th>Vous</th><th>Ils/Elles</th></tr>
+<tr>
+<td>finis</td><td>finis</td><td>finit</td><td>finissons</td><td>finissez</td><td>finissent</td>
+</tr>
+</table>
+</div>
+
+<div class="card">
+<h2>✏️ Applications</h2>
+<ul>
+<li>Les acteurs ......... (jouer) dans la pièce.</li>
+<li>Nous ............. (choisir) un film culturel.</li>
+</ul>
+<p><b>Réponses :</b> jouent / choisissons</p>
+</div>
+
+<!-- ================= QCM ================= -->
+
+<div class="card">
+<h2>🎯 QCM interactif (10 questions)</h2>
+
+<form id="quiz">
+
+<div class="qcm">
+1. Le verbe <b>parler</b> appartient au :<br>
+<label><input type="radio" name="q1" value="0"> 2e groupe</label><br>
+<label><input type="radio" name="q1" value="1"> 1er groupe</label>
+</div>
+
+<div class="qcm">
+2. Nous ....... (finir) le film.<br>
+<label><input type="radio" name="q2" value="0"> finons</label><br>
+<label><input type="radio" name="q2" value="1"> finissons</label>
+</div>
+
+<div class="qcm">
+3. Les acteurs ........... (jouer).<br>
+<label><input type="radio" name="q3" value="1"> jouent</label><br>
+<label><input type="radio" name="q3" value="0"> joues</label>
+</div>
+
+<div class="qcm">
+4. Tu ......... (choisir).<br>
+<label><input type="radio" name="q4" value="1"> choisis</label><br>
+<label><input type="radio" name="q4" value="0"> choisit</label>
+</div>
+
+<div class="qcm">
+5. Terminaison de « nous » au 1er groupe :<br>
+<label><input type="radio" name="q5" value="0"> issons</label><br>
+<label><input type="radio" name="q5" value="1"> ons</label>
+</div>
+
+<div class="qcm">
+6. Terminaison de « vous » au 2e groupe :<br>
+<label><input type="radio" name="q6" value="1"> issez</label><br>
+<label><input type="radio" name="q6" value="0"> ez</label>
+</div>
+
+<div class="qcm">
+7. Il ........ (finir) son rôle.<br>
+<label><input type="radio" name="q7" value="0"> finis</label><br>
+<label><input type="radio" name="q7" value="1"> finit</label>
+</div>
+
+<div class="qcm">
+8. Nous ......... (jouer) au théâtre.<br>
+<label><input type="radio" name="q8" value="1"> jouons</label><br>
+<label><input type="radio" name="q8" value="0"> jouent</label>
+</div>
+
+<div class="qcm">
+9. Le verbe <b>choisir</b> est du :<br>
+<label><input type="radio" name="q9" value="1"> 2e groupe</label><br>
+<label><input type="radio" name="q9" value="0"> 1er groupe</label>
+</div>
+
+<div class="qcm">
+10. Ils ............. (finir) la scène.<br>
+<label><input type="radio" name="q10" value="1"> finissent</label><br>
+<label><input type="radio" name="q10" value="0"> finisent</label>
+</div>
+
+<button type="button" class="btn" onclick="corriger()">Afficher le résultat </button>
+<div id="score" class="result"></div>
+
+</form>
+</div>
+
+</div>
+
+<footer>
+© Conjugaison interactive -- 4AEP
+</footer>
+
+<script>
+function corriger(){
+  let score = 0;
+
+  for(let i=1; i<=10; i++){
+    let radios = document.getElementsByName("q"+i);
+    for(let j=0; j<radios.length; j++){
+      if(radios[j].checked && radios[j].value=="1"){
+        score++;
+      }
+    }
+  }
+
+  document.getElementById("score").innerHTML =
+    "Tu as obtenu : " + score + " / 10";
+}
+</script>
+
+</body>
+</html>
